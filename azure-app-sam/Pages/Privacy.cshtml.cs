@@ -14,6 +14,7 @@ namespace azure_app_sam.Pages
 
         public void OnGet()
         {
+            throw new Exception("This is a test exception from Privacy.cshtml.cs OnGet method.");
         }
     }
 

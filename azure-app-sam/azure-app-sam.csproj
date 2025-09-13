@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_sam</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/491f452b-954f-405e-b753-2561838e2ba0/resourceGroups/az-group-rg/providers/microsoft.insights/components/az-app-sam-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>5ea19fec-f230-41db-949a-2144b2bef286</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
